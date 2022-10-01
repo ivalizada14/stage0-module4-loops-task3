@@ -7,8 +7,9 @@ public class FibonacciSeries {
         for(int i =1; i < lastFibonacci; i++)
         {
             System.out.println(current);
+            int x = current;
             current+=previous;
-            previous = current;
+            previous = x;
         }
     }
 }
